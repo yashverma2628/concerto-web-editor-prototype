@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+}
+
+/* Sidebar Styling */
+.sidebar {
+  width: 250px;
+  background: white;
+  border-right: 1px solid #ddd;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.05);
+  z-index: 10;
+}
+
+.dndnode {
+  padding: 10px;
+  border: 1px solid #3b82f6;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  cursor: grab;
+  background: #eff6ff;
+  color: #1e3a8a;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Custom Node Styling (The Class Box) */
+.concerto-node {
+  background: white;
+  border: 1px solid #333;
+  border-radius: 6px;
+  min-width: 200px;
+  box-shadow: 4px 4px 0px rgba(0,0,0,0.15); /* Retro 3D effect */
+  overflow: hidden;
+}
+
+.concerto-header {
+  background: #2563eb; /* Accord Blue */
+  color: white;
+  padding: 8px;
+  font-weight: bold;
+  text-align: center;
+  border-bottom: 1px solid #333;
+}
+
+.concerto-body {
+  padding: 10px;
+  background: #f8fafc;
+}
+
+.concerto-field {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+  font-family: 'Courier New', monospace;
+  font-size: 13px;
+}
+
+.field-icon {
+  color: #e11d48;
+  margin-right: 8px;
+  font-weight: bold;
+}
+
+.field-type {
+  font-weight: bold;
+  color: #0f172a;
+  margin-right: 6px;
+}
+
+.field-name {
+  color: #475569;
+}
+
+.handle {
+  width: 10px;
+  height: 10px;
+  background: #555;
+}
+
+/* CRITICAL: Forces the app to take full screen height */
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Prevents scrollbars */
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0f2f5;
+}
+
+/* Sidebar Styling */
+.sidebar {
+  width: 250px;
+  background: white;
+  border-right: 1px solid #ddd;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.05);
+  z-index: 10;
+}
+
+.dndnode {
+  padding: 10px;
+  border: 1px solid #3b82f6;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  cursor: grab;
+  background: #eff6ff;
+  color: #1e3a8a;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Custom Node Styling */
+.concerto-node {
+  background: white;
+  border: 1px solid #333;
+  border-radius: 6px;
+  min-width: 200px;
+  box-shadow: 4px 4px 0px rgba(0,0,0,0.15);
+}
+
+.concerto-header {
+  background: #2563eb;
+  color: white;
+  padding: 8px;
+  font-weight: bold;
+  text-align: center;
+  border-bottom: 1px solid #333;
+}
+
+.concerto-body {
+  padding: 10px;
+  background: #f8fafc;
+}
+
+.concerto-field {
+  display: flex;
+  margin-bottom: 4px;
+  font-family: 'Courier New', monospace;
+  font-size: 13px;
+}
+
+.field-icon { color: #e11d48; margin-right: 8px; }
+.field-type { font-weight: bold; color: #0f172a; margin-right: 6px; }
+.handle { width: 10px; height: 10px; background: #555; }

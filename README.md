@@ -39,7 +39,7 @@ If selected for Google Summer of Code, my development plan includes:
 
 1.  **Clone the repository**
     ```bash
-    git clone [https://github.com/yashverma2628/concerto-web-editor-prototype.git](https://github.com/yashverma2628/concerto-web-editor-prototype.git)
+    git clone [https://github.com/yashverma2628/concerto-web-editor-prototype.git](https://github.com/yashverma2628/concerto-graphical-editor-prototype.git)
     cd concerto-web-editor-prototype
     ```
 
